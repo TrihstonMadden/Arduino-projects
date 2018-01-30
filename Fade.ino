@@ -5,6 +5,7 @@ int fadeAmount = 5;    // how many points to fade the LED by
 
 // the setup routine runs once when you press reset:
 void setup() {
+    Serial.begin(9600);
   // declare pin 9 to be an output:
   pinMode(led, OUTPUT);
 }
