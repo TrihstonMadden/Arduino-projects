@@ -50,7 +50,7 @@ void loop()
   Serial.print("cm");
   Serial.println();
   
-  delay(250);
+  delay(50);
 }
 
 
